@@ -7,7 +7,7 @@
 
 [![Lint](https://github.com/valentynkit/awesome-jev-typesafe/actions/workflows/lint.yml/badge.svg)](https://github.com/valentynkit/awesome-jev-typesafe/actions/workflows/lint.yml)
 [![Links](https://github.com/valentynkit/awesome-jev-typesafe/actions/workflows/links.yml/badge.svg)](https://github.com/valentynkit/awesome-jev-typesafe/actions/workflows/links.yml)
-![Entries](https://img.shields.io/badge/entries-389-4CC9F0?style=flat-square&labelColor=0B0E11)
+![Entries](https://img.shields.io/badge/entries-391-4CC9F0?style=flat-square&labelColor=0B0E11)
 [![Last commit](https://img.shields.io/github/last-commit/valentynkit/awesome-jev-typesafe?style=flat-square&labelColor=0B0E11&color=E8EDF2)](https://github.com/valentynkit/awesome-jev-typesafe/commits/main)
 [![License](https://img.shields.io/github/license/valentynkit/awesome-jev-typesafe?style=flat-square&labelColor=0B0E11&color=E8EDF2)](license)
 
@@ -520,7 +520,7 @@ None of these ship TypeSafe's weights. They reproduce the interface, the paralle
 ## Community clients
 
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) - Go client that returns typed judgments and probabilities.
-- [Milvus Model](https://github.com/milvus-io/milvus-model) - Python reranker adapter that sends candidate documents as Jev Noul questions in one request, then sorts the returned scores and preserves original document indices.
+- [Milvus Model](https://github.com/milvus-io/milvus-model) - Reranker package whose Jev adapter sends every candidate document as a Noul question in one request, sorts by the returned probabilities, and keeps original indices; shipped in the v0.3.4 release.
 - [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - Idiomatic Go SDK for the TypeSafe API.
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - Rust client with async and blocking backends and observable retries.
 - [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) - Independent async and blocking Rust SDK.
