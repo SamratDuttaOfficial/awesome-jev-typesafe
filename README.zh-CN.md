@@ -204,6 +204,7 @@
 - [jev-gateway](https://github.com/vinilana/jev-gateway) - 面向 Codex 和 Claude Code 的本地网关，把“下一步用哪个工具”的决策交给 Jev，其余都交给你平常的模型。
 - [jev-router by daviddl9](https://github.com/daviddl9/jev-router) - 在 OMP 和 Pi 中由 Jev 为每一步选择工作模型档位，规划和复核留给强模型，有边界的执行交给更便宜的模型。
 - [Jevonian](https://github.com/xinyao27/jevonian) - 本地代理，兼容 OpenAI、Anthropic 和 Responses 接口：每轮只发一次 Jev 调用，为虚拟模型 jevonian/auto 同时决定模型路由和思考级别；代码先按协议、上下文窗口、最低推理强度和已用配额窗口筛选候选，固定模型或显式路由则完全跳过 Jev。
+- [neurolink](https://github.com/juspay/neurolink) - TypeScript AI SDK where decide, via Jev, is a peer of generate and stream: one typed-judgment call routes model choice, prunes context, and picks MCP tools.
 
 ## 搜索、重排与 RAG
 
@@ -392,6 +393,7 @@
 ## 社区客户端
 
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) - Go 客户端，返回带类型的判断和概率。
+- [Milvus Model](https://github.com/milvus-io/milvus-model) - Reranker package whose Jev adapter sends every candidate document as a Noul question in one request, sorts by the returned probabilities, and keeps original indices; shipped in the v0.3.4 release.
 - [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - 符合 Go 习惯的 TypeSafe API SDK。
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - Rust 客户端，提供异步和阻塞两种后端以及可观测的重试。
 - [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) - 独立的异步与阻塞 Rust SDK。

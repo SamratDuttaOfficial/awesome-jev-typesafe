@@ -204,6 +204,7 @@
 - [jev-gateway](https://github.com/vinilana/jev-gateway) - "다음에 어떤 도구를 쓸지" 결정은 Jev로, 나머지는 평소 쓰던 모델로 보내는 Codex와 Claude Code용 로컬 게이트웨이입니다.
 - [jev-router by daviddl9](https://github.com/daviddl9/jev-router) - OMP와 Pi에서 각 단계의 작업 모델 등급을 Jev가 고릅니다. 계획과 검토는 강한 모델에, 범위가 정해진 작업은 저렴한 모델에 맡깁니다.
 - [Jevonian](https://github.com/xinyao27/jevonian) - OpenAI, Anthropic, Responses 호환 로컬 프록시. 턴마다 Jev 호출 한 번으로 가상 모델 jevonian/auto의 모델 경로와 사고 수준을 함께 정합니다. 후보는 먼저 코드가 프로토콜, 컨텍스트 창, 최소 추론 강도, 소진된 할당량 창으로 거르고, 고정 모델이나 명시적 경로는 Jev를 아예 건너뜁니다.
+- [neurolink](https://github.com/juspay/neurolink) - TypeScript AI SDK where decide, via Jev, is a peer of generate and stream: one typed-judgment call routes model choice, prunes context, and picks MCP tools.
 
 ## 검색, 리랭킹, RAG
 
@@ -392,6 +393,7 @@
 ## 커뮤니티 클라이언트
 
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) - 타입 지정 판정과 확률을 돌려주는 Go 클라이언트입니다.
+- [Milvus Model](https://github.com/milvus-io/milvus-model) - Reranker package whose Jev adapter sends every candidate document as a Noul question in one request, sorts by the returned probabilities, and keeps original indices; shipped in the v0.3.4 release.
 - [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - TypeSafe API를 위한 관용적인 Go SDK입니다.
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - 비동기 및 블로킹 백엔드와 관찰 가능한 재시도를 갖춘 Rust 클라이언트입니다.
 - [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) - 독립적으로 만든 비동기 및 블로킹 Rust SDK입니다.

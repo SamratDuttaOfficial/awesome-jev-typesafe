@@ -204,6 +204,7 @@
 - [jev-gateway](https://github.com/vinilana/jev-gateway) - Codex と Claude Code 向けのローカルゲートウェイで、「次にどのツールを使うか」の判断を Jev に送り、それ以外はいつものモデルに送ります。
 - [jev-router by daviddl9](https://github.com/daviddl9/jev-router) - OMP と Pi の各ステップでワーカーの階層を Jev が選び、計画とレビューは強いモデルに、範囲の限られた作業は安いモデルに残します。
 - [Jevonian](https://github.com/xinyao27/jevonian) - OpenAI、Anthropic、Responses 互換のローカルプロキシ。1 ターンにつき Jev 呼び出し 1 回で、仮想モデル jevonian/auto のモデルルートと思考レベルを同時に決めます。候補はまずコードがプロトコル、コンテキスト長、推論強度の下限、使用済みクォータ枠で絞り、固定モデルや明示ルートは Jev を完全に飛ばします。
+- [neurolink](https://github.com/juspay/neurolink) - TypeScript AI SDK where decide, via Jev, is a peer of generate and stream: one typed-judgment call routes model choice, prunes context, and picks MCP tools.
 
 ## 検索・リランキング・RAG
 
@@ -392,6 +393,7 @@
 ## コミュニティクライアント
 
 - [jev-go](https://github.com/Gaurav-Gosain/jev-go) - 型付きの判定と確率を返す Go クライアントです。
+- [Milvus Model](https://github.com/milvus-io/milvus-model) - Reranker package whose Jev adapter sends every candidate document as a Noul question in one request, sorts by the returned probabilities, and keeps original indices; shipped in the v0.3.4 release.
 - [typesafe-go](https://github.com/zhirschtritt/typesafe-go) - TypeSafe API 向けの Go らしい SDK です。
 - [typesafe-ai](https://github.com/Twister915/typesafe-ai) - 非同期とブロッキングのバックエンド、そして観測可能なリトライを備えた Rust クライアントです。
 - [typesafe-ai-rs](https://github.com/gilljon/typesafe-ai-rs) - 非同期とブロッキングに対応した独立系の Rust SDK です。
